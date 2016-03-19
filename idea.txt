@@ -1,0 +1,23 @@
+Summary: subscribe to players or teams, and get text message updates when there are changes to the injury API
+
+User Stories:
+- A user creates an account and submits their phone number
+- A user can subscribe to an MLB player or team
+- When the player or team has a user follows changes on the injury report, they recieve a text message
+
+Systems:
+
+UI: 
+  - User registers and subscribes to players/teams
+
+DB: 
+  - Keep track of who follows who and what reports (texts) have been seen
+
+API Fetcher: 
+  - Check every X minutes for changes to the injury report
+    - Endpoints: 
+      - Injuries: http://api.sportradar.us/mlb-t5/league/injuries.json?api_key=etdrjj3cz8egbv6fhz69gj5c
+      - Depth chart: http://api.sportradar.us/mlb-t5/league/depth_charts.json?api_key=etdrjj3cz8egbv6fhz69gj5c
+
+Text sending:
+  - Runs after each API fetch and sends appropriate text messages

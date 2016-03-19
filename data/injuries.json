@@ -1,0 +1,2021 @@
+{
+  "league": {
+    "id": "2fa448bc-fc17-4d3d-be03-e60e080fdc26",
+    "name": "Major League Baseball",
+    "alias": "MLB"
+  },
+  "teams": [
+    {
+      "name": "Braves",
+      "abbr": "ATL",
+      "market": "Atlanta",
+      "id": "12079497-e414-450a-8bf2-29f91de646bf",
+      "players": [
+        {
+          "id": "88209379-77c2-451f-904c-237cf521838c",
+          "status": "A",
+          "position": "P",
+          "primary_position": "RP",
+          "first_name": "Andrew",
+          "last_name": "McKirahan",
+          "preferred_name": "Andrew",
+          "jersey_number": "52",
+          "injuries": [
+            {
+              "id": "00528608-ac49-4346-8d9f-55cb3b2242fd",
+              "comment": "McKirahan will miss the 2016 season as he undergoes a second Tommy John surgery, according to Michael Cunnningham of the Atlanta Journal-Constitution.\r\n",
+              "desc": "Elbow",
+              "status": "Day-to-Day",
+              "start_date": "2016-03-05",
+              "update_date": "2016-03-05"
+            }
+          ]
+        },
+        {
+          "id": "ece2f891-e92e-4825-9c40-8650a6b2af09",
+          "status": "A",
+          "position": "P",
+          "primary_position": "RP",
+          "first_name": "Jason",
+          "last_name": "Grilli",
+          "preferred_name": "Jason",
+          "jersey_number": "39",
+          "injuries": [
+            {
+              "id": "170984ee-0832-47c0-b9a9-c5c5f8fa606c",
+              "comment": "Grilli has been running and throwing and said he plans to ready for Opening Day, according to Mark Bowman of MLB.com.",
+              "desc": "Achilles",
+              "status": "Day-to-Day",
+              "start_date": "2015-07-11",
+              "update_date": "2016-02-19"
+            }
+          ]
+        },
+        {
+          "id": "674630c8-b552-4ce8-ab30-29be4aa6aa79",
+          "status": "D60",
+          "position": "P",
+          "primary_position": "RP",
+          "first_name": "Steven",
+          "last_name": "Rodriguez",
+          "preferred_name": "Paco",
+          "jersey_number": "75",
+          "injuries": [
+            {
+              "id": "40f5cbd0-7821-456f-9403-4c1e3fd6a7bc",
+              "comment": "Rodriguez is expected to miss the entire 2016 season as he recovers from Tommy John surgery, according to David O'Brien with the Atlanta Journal Constitution.",
+              "desc": "Elbow",
+              "status": "D60",
+              "start_date": "2015-05-31",
+              "update_date": "2015-10-02"
+            }
+          ]
+        },
+        {
+          "id": "8d78e2bc-5462-4262-bc92-cb5cda1ba102",
+          "status": "A",
+          "position": "P",
+          "primary_position": "SP",
+          "first_name": "Michael",
+          "last_name": "Foltynewicz",
+          "preferred_name": "Michael",
+          "jersey_number": "26",
+          "injuries": [
+            {
+              "id": "5a007a66-bc25-44dc-b876-f45fd39102b3",
+              "comment": "Foltynewicz had no problems throwing 15 pitches in a bullpen session on Sunday (Feb. 21), according to David O'Brien of the Atlanta Journal Constitution.",
+              "desc": "Ribs",
+              "status": "Day-to-Day",
+              "start_date": "2016-02-01",
+              "update_date": "2016-02-01"
+            }
+          ]
+        },
+        {
+          "id": "e0899ce0-e436-468d-9c94-4b85dd984527",
+          "status": "A",
+          "position": "P",
+          "primary_position": "RP",
+          "first_name": "Shae",
+          "last_name": "Simmons",
+          "preferred_name": "Shae",
+          "jersey_number": "86",
+          "injuries": [
+            {
+              "id": "d1a4a8ff-bdd4-40b4-aec1-d0732b229cf5",
+              "comment": "The team hopes Simmons is ready by late May after he missed the entire 2015 season after undergoing Tommy John surgery, according to David O'Brien with the Atlanta Journal Constitution.",
+              "desc": "Elbow",
+              "status": "Day-to-Day",
+              "start_date": "2014-07-29",
+              "update_date": "2015-12-08"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rockies",
+      "abbr": "COL",
+      "market": "Colorado",
+      "id": "29dd9a87-5bcc-4774-80c3-7f50d985068b",
+      "players": [
+        {
+          "id": "2f2db450-ef30-442f-9c4b-90078dfb6e6d",
+          "status": "A",
+          "position": "P",
+          "primary_position": "RP",
+          "first_name": "Jairo",
+          "last_name": "Diaz",
+          "preferred_name": "Jairo",
+          "jersey_number": "47",
+          "injuries": [
+            {
+              "id": "076fce84-7dda-47c5-b6e9-7c9b84d0d648",
+              "comment": "Diaz's MRI revealed damage to his forearm near the elbow and more will be updated sometime on Monday (Mar. 6), according to Thomas Harding of MLB.com.",
+              "desc": "Arm",
+              "status": "Day-to-Day",
+              "start_date": "2016-03-06",
+              "update_date": "2016-03-06"
+            }
+          ]
+        },
+        {
+          "id": "e910dcd2-1b23-4b6f-85f6-be74938fa3e7",
+          "status": "D60",
+          "position": "P",
+          "primary_position": "RP",
+          "first_name": "Adam",
+          "last_name": "Ottavino",
+          "preferred_name": "Adam",
+          "jersey_number": "",
+          "injuries": [
+            {
+              "id": "5cfebcf2-15ec-4870-abbe-64423727a29c",
+              "comment": "The Rockies placed RHP Adam Ottavino on the 60-day disabled list. He's working his way back from Tommy John surgery.",
+              "desc": "Elbow",
+              "status": "D60",
+              "start_date": "2015-05-07",
+              "update_date": "2016-02-19"
+            }
+          ]
+        },
+        {
+          "id": "a920073f-154b-4173-a8ff-aed0b2c22711",
+          "status": "A",
+          "position": "P",
+          "primary_position": "SP",
+          "first_name": "Tyler",
+          "last_name": "Anderson",
+          "preferred_name": "Tyler",
+          "jersey_number": "44",
+          "injuries": [
+            {
+              "id": "e519a0d6-4d46-4154-94bc-90c791d3802b",
+              "comment": "Rockies manager Walt Weiss indicated that Anderson will be out several weeks with a strained right oblique, according to Thomas Harding of MLB.com.",
+              "desc": "Oblique",
+              "status": "Day-to-Day",
+              "start_date": "2016-03-15",
+              "update_date": "2016-03-15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rangers",
+      "abbr": "TEX",
+      "market": "Texas",
+      "id": "d99f919b-1534-4516-8e8a-9cd106c6d8cd",
+      "players": [
+        {
+          "id": "74893884-a7a8-4abb-9449-2ccac55151f0",
+          "status": "D60",
+          "position": "P",
+          "primary_position": "RP",
+          "first_name": "Tanner",
+          "last_name": "Scheppers",
+          "preferred_name": "Tanner",
+          "jersey_number": "52",
+          "injuries": [
+            {
+              "id": "07e40f86-5318-47eb-9a32-8dad89fa7463",
+              "comment": "The Ranges placed Scheppers on the 60-day disabled list. He's expected to be sidelined until at least the second half of this season, according to the Fort Worth Star-Telegram.",
+              "desc": "Knee",
+              "status": "D60",
+              "start_date": "2016-02-20",
+              "update_date": "2016-02-29"
+            }
+          ]
+        },
+        {
+          "id": "cc672f14-6c84-4dde-8beb-90664d467843",
+          "status": "A",
+          "position": "P",
+          "primary_position": "SP",
+          "first_name": "Yu",
+          "last_name": "Darvish",
+          "preferred_name": "Yu",
+          "jersey_number": "11",
+          "injuries": [
+            {
+              "id": "3ac0e01a-dd96-4697-9ead-3e0554d66883",
+              "comment": "Darvish threw from a full mound Monday (Feb. 29) without any issues, according to Bob Nightengale of USA Today.",
+              "desc": "Elbow",
+              "status": "Day-to-Day",
+              "start_date": "2015-03-13",
+              "update_date": "2016-02-29"
+            }
+          ]
+        },
+        {
+          "id": "80a9cdee-5c90-42da-8a9a-0756ef09ae6a",
+          "status": "A",
+          "position": "OF",
+          "primary_position": "LF",
+          "first_name": "Joshua",
+          "last_name": "Hamilton",
+          "preferred_name": "Josh",
+          "jersey_number": "32",
+          "injuries": [
+            {
+              "id": "4d5b2142-f349-4081-97bc-595d767c51cb",
+              "comment": "Hamilton will start the season on the disabled list; the Rangers expect him to make his season debut in early May, according to Evan Grant  of the Dallas Morning News.",
+              "desc": "Knee",
+              "status": "Day-to-Day",
+              "start_date": "2015-09-15",
+              "update_date": "2016-02-24"
+            }
+          ]
+        },
+        {
+          "id": "1d8f74e9-5ca5-4407-9ef8-8512d00f2860",
+          "status": "A",
+          "position": "P",
+          "primary_position": "RP",
+          "first_name": "Luke",
+          "last_name": "Jackson",
+          "preferred_name": "Luke",
+          "jersey_number": "53",
+          "injuries": [
+            {
+              "id": "a22cb33f-89af-4d70-b6dc-a4c317216c68",
+              "comment": "Jackson has been restricted to flat-ground throwing because of some lower back soreness, according to report from rangers.mlb.com.",
+              "desc": "Lower Back",
+              "status": "Day-to-Day",
+              "start_date": "2016-02-22",
+              "update_date": "2016-02-22"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blue Jays",
+      "abbr": "TOR",
+      "market": "Toronto",
+      "id": "1d678440-b4b1-4954-9b39-70afb3ebbcfa",
+      "players": [
+        {
+          "id": "e6b6b905-a355-4e85-84ca-db655cc3dce4",
+          "status": "A",
+          "position": "IF",
+          "primary_position": "2B",
+          "first_name": "Devon",
+          "last_name": "Travis",
+          "preferred_name": "Devon",
+          "jersey_number": "29",
+          "injuries": [
+            {
+              "id": "1aa66202-99fe-4f85-893a-1128dc20c98d",
+              "comment": "General Manager Ross Atkins said Travis is on track to be playing baseball again in April 2016, per a report from Shi Davidi of sportsnet.ca. Travis had surgery on Nov. 18, 2015 to repair some issues with his shoulder.",
+              "desc": "Shoulder",
+              "status": "Day-to-Day",
+              "start_date": "2015-07-31",
+              "update_date": "2016-01-09"
+            }
+          ]
+        },
+        {
+          "id": "454b4642-c1ad-4b8e-8728-0d8bb03051be",
+          "status": "A",
+          "position": "P",
+          "primary_position": "RP",
+          "first_name": "Aaron",
+          "last_name": "Loup",
+          "preferred_name": "Aaron",
+          "jersey_number": "62",
+          "injuries": [
+            {
+              "id": "f16431d8-c755-41ed-af0b-ea57d0216af2",
+              "comment": "Loup has a flexor strain on his left elbow. He's going to be shut down for a few weeks and then will be re-evaulated, according to Shi Davidi of sportsnet.ca.",
+              "desc": "Elbow",
+              "status": "Day-to-Day",
+              "start_date": "2016-03-04",
+              "update_date": "2016-03-04"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mets",
+      "abbr": "NYM",
+      "market": "New York",
+      "id": "f246a5e5-afdb-479c-9aaa-c68beeda7af6",
+      "players": [
+        {
+          "id": "0db5ce1f-22c4-46b4-9682-1ed98e890d92",
+          "status": "A",
+          "position": "P",
+          "primary_position": "RP",
+          "first_name": "Joshua",
+          "last_name": "Edgin",
+          "preferred_name": "Josh",
+          "jersey_number": "66",
+          "injuries": [
+            {
+              "id": "1b458819-5db1-4e8b-b6ac-b668ba5009b6",
+              "comment": "Edgin had Tommy John surgery on March 17, 2015. The goal is for him to return sometime during the 2016 season, according to a report from MLB.com.",
+              "desc": "Elbow",
+              "status": "Day-to-Day",
+              "start_date": "2015-03-15",
+              "update_date": "2016-01-23"
+            }
+          ]
+        },
+        {
+          "id": "45bca5ce-4514-4a91-9410-e201c7b0052d",
+          "status": "A",
+          "position": "IF",
+          "primary_position": "2B",
+          "first_name": "Wilmer",
+          "last_name": "Flores",
+          "preferred_name": "Wilmer",
+          "jersey_number": "4",
+          "injuries": [
+            {
+              "id": "1b468805-29ec-473a-b03e-a2cecf8d04ee",
+              "comment": "Flores has shed his walking boot and is working out again, according to Adam Rubin of ESPN.com. The hope is that Flores is ready in time for spring training.",
+              "desc": "Ankle",
+              "status": "Day-to-Day",
+              "start_date": "2015-12-08",
+              "update_date": "2016-01-27"
+            }
+          ]
+        },
+        {
+          "id": "63909aed-f094-4154-859f-bf45d81a5ebe",
+          "status": "A",
+          "position": "IF",
+          "primary_position": "SS",
+          "first_name": "Asdrubal",
+          "last_name": "Cabrera",
+          "preferred_name": "Asdrubal",
+          "jersey_number": "13",
+          "injuries": [
+            {
+              "id": "4547ec87-e73b-4781-a459-0e012864857e",
+              "comment": "Head coach Terry Collins expects Cabrera to be ready for Opening Day, according to Adam Rubin of ESPN.com.",
+              "desc": "Knee",
+              "status": "Day-to-Day",
+              "start_date": "2016-03-11",
+              "update_date": "2016-03-17"
+            }
+          ]
+        },
+        {
+          "id": "b1f6fc22-f38e-4d77-a7e7-6a2ffdcf77f2",
+          "status": "A",
+          "position": "C",
+          "primary_position": "C",
+          "first_name": "Kevin",
+          "last_name": "Plawecki",
+          "preferred_name": "Kevin",
+          "jersey_number": "26",
+          "injuries": [
+            {
+              "id": "545c1ff4-bbbc-48b4-ab75-4c8c70a5c813",
+              "comment": "Plawecki underwent sinus surgery in December and is expected to be ready for spring training, according to the New York Daily News.",
+              "desc": "Sinus",
+              "status": "Day-to-Day",
+              "start_date": "2016-02-09",
+              "update_date": "2016-02-09"
+            }
+          ]
+        },
+        {
+          "id": "f2c07e82-71e8-4c76-962b-3a7739a11626",
+          "status": "A",
+          "position": "P",
+          "primary_position": "SP",
+          "first_name": "Zachary",
+          "last_name": "Wheeler",
+          "preferred_name": "Zack",
+          "jersey_number": "45",
+          "injuries": [
+            {
+              "id": "8a8c6783-93e0-4fa5-b0b5-33722e79f865",
+              "comment": "Wheeler is going to throw off of a mound later this week; he is still projected to return to the Mets rotation sometime in July, according to ESPN New York.",
+              "desc": "Elbow",
+              "status": "Day-to-Day",
+              "start_date": "2015-03-15",
+              "update_date": "2016-02-22"
+            }
+          ]
+        },
+        {
+          "id": "4db3750e-103c-40a2-a88b-46905b755c5a",
+          "status": "FA",
+          "position": "IF",
+          "primary_position": "SS",
+          "first_name": "Ruben",
+          "last_name": "Tejada",
+          "preferred_name": "Ruben",
+          "jersey_number": "11",
+          "injuries": [
+            {
+              "id": "a96ee06b-e755-471e-8f1a-577e0c3da159",
+              "comment": "Tejada has shed his walking boot and is working out again, according to Adam Rubin of ESPN.com. The hope is that Tejada is ready in time for spring training.",
+              "desc": "Leg",
+              "status": "Day-to-Day",
+              "start_date": "2015-10-11",
+              "update_date": "2016-01-27"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Reds",
+      "abbr": "CIN",
+      "market": "Cincinnati",
+      "id": "c874a065-c115-4e7d-b0f0-235584fb0e6f",
+      "players": [
+        {
+          "id": "f96be926-0ffa-41ba-91d9-6a7697f466b6",
+          "status": "A",
+          "position": "C",
+          "primary_position": "C",
+          "first_name": "Devin",
+          "last_name": "Mesoraco",
+          "preferred_name": "Devin",
+          "jersey_number": "39",
+          "injuries": [
+            {
+              "id": "1e272ed0-95cf-4c61-9eda-095d0c435058",
+              "comment": "Mesoraco is making progress and participating in catching drills without discomfort, according to C. Trent Rosecrans of the Cincinnati Enquirer. The hope is that he's ready for spring training.",
+              "desc": "Hip",
+              "status": "Day-to-Day",
+              "start_date": "2015-06-20",
+              "update_date": "2016-01-27"
+            }
+          ]
+        },
+        {
+          "id": "7908ee05-a767-4085-88b1-3cb029c9e5eb",
+          "status": "A",
+          "position": "P",
+          "primary_position": "SP",
+          "first_name": "David",
+          "last_name": "Bailey",
+          "preferred_name": "Homer",
+          "jersey_number": "34",
+          "injuries": [
+            {
+              "id": "4fa37bb2-8669-49d0-9599-3a3df581f876",
+              "comment": "Bailey is recovering from Tommy John surgery and hopes to be be ready to throw off a mound by February.",
+              "desc": "Elbow",
+              "status": "Day-to-Day",
+              "start_date": "2015-05-08",
+              "update_date": "2015-12-05"
+            }
+          ]
+        },
+        {
+          "id": "4150b3f7-beb3-4fbc-a947-933d45d20bfe",
+          "status": "A",
+          "position": "P",
+          "primary_position": "RP",
+          "first_name": "Michael",
+          "last_name": "Lorenzen",
+          "preferred_name": "Michael",
+          "jersey_number": "21",
+          "injuries": [
+            {
+              "id": "64f21a02-59f8-4476-b6ef-e52031169b65",
+              "comment": "Lorenzen experienced a setback with his right elbow and will receive an MRI on Monday (Mar. 14); his status for Opening Day is uncertain, according to Zach Buchanan of the Cincinnati Enquirer.",
+              "desc": "Right Elbow",
+              "status": "Day-to-Day",
+              "start_date": "2016-03-14",
+              "update_date": "2016-03-14"
+            }
+          ]
+        },
+        {
+          "id": "090ff436-c1e8-4927-b457-355cf4f9993b",
+          "status": "A",
+          "position": "OF",
+          "primary_position": "CF",
+          "first_name": "Billy",
+          "last_name": "Hamilton",
+          "preferred_name": "Billy",
+          "jersey_number": "6",
+          "injuries": [
+            {
+              "id": "fcff2cfd-e345-488a-8438-0062400e30ee",
+              "comment": "Hamilton said his shoulder is still not 100 percent; he is expected to be ready to go by opening day, according to report from reds.mlb.com.",
+              "desc": "Shoulder",
+              "status": "Day-to-Day",
+              "start_date": "2015-09-21",
+              "update_date": "2016-02-22"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Red Sox",
+      "abbr": "BOS",
+      "market": "Boston",
+      "id": "93941372-eb4c-4c40-aced-fe3267174393",
+      "players": [
+        {
+          "id": "0d7a27a9-f41c-4fce-930e-113aa4cf4c52",
+          "status": "A",
+          "position": "C",
+          "primary_position": "C",
+          "first_name": "Christian",
+          "last_name": "Vazquez",
+          "preferred_name": "Christian",
+          "jersey_number": "7",
+          "injuries": [
+            {
+              "id": "1e39270e-6c0f-41f0-9d6b-aba125eb2aaf",
+              "comment": "Vazquez is rehabbing from Tommy John surgery and is starting to throw from up to 120 feet, according to a report from the Boston Herald.",
+              "desc": "Elbow",
+              "status": "Day-to-Day",
+              "start_date": "2016-01-22",
+              "update_date": "2016-01-22"
+            }
+          ]
+        },
+        {
+          "id": "c5da6e07-891a-491a-ae0a-97014544e725",
+          "status": "A",
+          "position": "P",
+          "primary_position": "SP",
+          "first_name": "Christopher",
+          "last_name": "Johnson",
+          "preferred_name": "Brian",
+          "jersey_number": "61",
+          "injuries": [
+            {
+              "id": "7bd98d8e-5917-4fbd-92eb-eefdf760fcf0",
+              "comment": "Johnson has started throwing off a mound and believes he will be healthy and ready to go for spring training, according to Pete Abraham of the Boston Globe.",
+              "desc": "Elbow",
+              "status": "Day-to-Day",
+              "start_date": "2015-04-13",
+              "update_date": "2016-01-23"
+            }
+          ]
+        },
+        {
+          "id": "0d01a60b-ecb4-43c0-a58c-b39f83b90f21",
+          "status": "A",
+          "position": "P",
+          "primary_position": "SP",
+          "first_name": "Brandon",
+          "last_name": "Workman",
+          "preferred_name": "Brandon",
+          "jersey_number": "67",
+          "injuries": [
+            {
+              "id": "dc69b0fb-155a-4cea-be6e-787e58370f32",
+              "comment": "Workman said he hopes to return sometime during the 2016 season, according to Pete Abraham of the Boston Globe.",
+              "desc": "Elbow",
+              "status": "Day-to-Day",
+              "start_date": "2015-04-13",
+              "update_date": "2016-01-23"
+            }
+          ]
+        },
+        {
+          "id": "93413a68-2c05-405a-a38c-9ee983b36913",
+          "status": "A",
+          "position": "P",
+          "primary_position": "SP",
+          "first_name": "Eduardo",
+          "last_name": "Rodriguez",
+          "preferred_name": "Eduardo",
+          "jersey_number": "52",
+          "injuries": [
+            {
+              "id": "e806f584-86fa-41b7-bfb4-a54c02e620be",
+              "comment": "Red Sox manager John Farrell indicated that Rodriguez will probably not be ready to go for Opening Day, according to Pete Abraham of the Boston Globe.",
+              "desc": "Knee",
+              "status": "Day-to-Day",
+              "start_date": "2016-03-13",
+              "update_date": "2016-03-13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Yankees",
+      "abbr": "NYY",
+      "market": "New York",
+      "id": "a09ec676-f887-43dc-bbb3-cf4bbaee9a18",
+      "players": [
+        {
+          "id": "1881391a-a184-4410-af54-13007f989e74",
+          "status": "A",
+          "position": "IF",
+          "primary_position": "1B",
+          "first_name": "Gregory",
+          "last_name": "Bird",
+          "preferred_name": "Gregory",
+          "jersey_number": "33",
+          "injuries": [
+            {
+              "id": "1ed94f3a-de11-4af0-b346-1a3232f2124f",
+              "comment": "Bird will have surgery Tuesday (Feb. 2) to repair a labrum tear and will miss entire 2016, according to Joel Sheran of the New York Post.",
+              "desc": "Labrum",
+              "status": "Day-to-Day",
+              "start_date": "2016-02-01",
+              "update_date": "2016-02-01"
+            }
+          ]
+        },
+        {
+          "id": "f7967ff6-16ea-408f-aa90-7d4df691679f",
+          "status": "MIN",
+          "position": "P",
+          "primary_position": "SP",
+          "first_name": "Domingo",
+          "last_name": "German",
+          "preferred_name": "Domingo",
+          "jersey_number": "75",
+          "injuries": [
+            {
+              "id": "4ccf1ee3-f60c-4269-8ced-5179f1c67139",
+              "comment": "AN MRI on German's right elbow found a flexor muscle strain and an edema, according to the New York Daily News.",
+              "desc": "Right Elbow",
+              "status": "Day-to-Day",
+              "start_date": "2016-02-28",
+              "update_date": "2016-02-28"
+            }
+          ]
+        },
+        {
+          "id": "fdfda40f-e77b-4cc2-a72c-11951460beda",
+          "status": "A",
+          "position": "P",
+          "primary_position": "SP",
+          "first_name": "Masahiro",
+          "last_name": "Tanaka",
+          "preferred_name": "Masahiro",
+          "jersey_number": "19",
+          "injuries": [
+            {
+              "id": "f01d5d2a-d218-40c0-90d7-b1c1ec67c8d1",
+              "comment": "Tanaka is not sure he will be ready for Opening Day, according to Yankees beat writer for Newsday Sports Erik Boland.",
+              "desc": "Elbow",
+              "status": "Day-to-Day",
+              "start_date": "2015-10-20",
+              "update_date": "2016-02-12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rays",
+      "abbr": "TB",
+      "market": "Tampa Bay",
+      "id": "bdc11650-6f74-49c4-875e-778aeb7632d9",
+      "players": [
+        {
+          "id": "c63208a8-f0cb-4984-996e-79a9fdc2970a",
+          "status": "A",
+          "position": "P",
+          "primary_position": "RP",
+          "first_name": "Bradley",
+          "last_name": "Boxberger",
+          "preferred_name": "Brad",
+          "jersey_number": "26",
+          "injuries": [
+            {
+              "id": "1fbac41e-a1fd-4f73-80ac-7d79c94aa040",
+              "comment": "Manager Kevin Cash said Boxberger will be sidelined for the next eight weeks as he recovers from core muscle surgery, according to Marc Topkin of the Tampa Bay Times.",
+              "desc": "Core",
+              "status": "Day-to-Day",
+              "start_date": "2016-03-18",
+              "update_date": "2016-03-18"
+            }
+          ]
+        },
+        {
+          "id": "2cfe41eb-a26d-45b0-8b7c-22536e59db28",
+          "status": "A",
+          "position": "OF",
+          "primary_position": "RF",
+          "first_name": "Steven",
+          "last_name": "Souza Jr.",
+          "preferred_name": "Steven",
+          "jersey_number": "20",
+          "injuries": [
+            {
+              "id": "209eba93-e19c-4e58-a664-6055d345bb31",
+              "comment": "Souza is not expected to participate in the Rays' first workout on Friday (Feb. 26), according to Marc Topkin of the Tampa Bay Times.",
+              "desc": "Left Intercostal Strain",
+              "status": "Day-to-Day",
+              "start_date": "2016-02-21",
+              "update_date": "2016-02-24"
+            }
+          ]
+        },
+        {
+          "id": "543c7bc1-cb05-4e93-94e0-90d369759721",
+          "status": "D60",
+          "position": "P",
+          "primary_position": "SP",
+          "first_name": "Chase",
+          "last_name": "Whitley",
+          "preferred_name": "Chase",
+          "jersey_number": "",
+          "injuries": [
+            {
+              "id": "a1884c6e-dab8-4802-897b-27c69718c039",
+              "comment": "The Rays placed RHP Chase Whitley on the 60-day Disabled List. Whitley had Tommy John surgery in May (2015) and is expected to miss the first half of the 2016 season.",
+              "desc": "Elbow",
+              "status": "D60",
+              "start_date": "2015-05-18",
+              "update_date": "2016-02-18"
+            }
+          ]
+        },
+        {
+          "id": "d2c5e643-fe5d-4ece-8f1e-560d6b2048ed",
+          "status": "A",
+          "position": "P",
+          "primary_position": "SP",
+          "first_name": "Alexander",
+          "last_name": "Cobb",
+          "preferred_name": "Alex",
+          "jersey_number": "53",
+          "injuries": [
+            {
+              "id": "ae9d22ce-265e-438f-a795-ee92e5e40f38",
+              "comment": "Cobb hopes to return before August, according to Marc Topkin of the Tampa Bay Times.",
+              "desc": "Elbow",
+              "status": "Day-to-Day",
+              "start_date": "2015-05-08",
+              "update_date": "2016-03-17"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tigers",
+      "abbr": "DET",
+      "market": "Detroit",
+      "id": "575c19b7-4052-41c2-9f0a-1c5813d02f99",
+      "players": [
+        {
+          "id": "a6797bdd-683b-404e-b974-3546f93c6c47",
+          "status": "A",
+          "position": "P",
+          "primary_position": "SP",
+          "first_name": "Anibal",
+          "last_name": "Sanchez",
+          "preferred_name": "Anibal",
+          "jersey_number": "19",
+          "injuries": [
+            {
+              "id": "2cfde551-2264-47dc-9a74-ad971a4588a3",
+              "comment": "There is no timetable for Sanchez to start throwing off of a mound, according to Jason Beck of MLB.com.",
+              "desc": "Triceps/Illness",
+              "status": "Day-to-Day",
+              "start_date": "2016-03-05",
+              "update_date": "2016-03-05"
+            }
+          ]
+        },
+        {
+          "id": "c5494cb0-b048-4f39-992e-d11b9113329f",
+          "status": "A",
+          "position": "P",
+          "primary_position": "RP",
+          "first_name": "Angel",
+          "last_name": "Nesbitt",
+          "preferred_name": "Angel",
+          "jersey_number": "60",
+          "injuries": [
+            {
+              "id": "5c8a2f2c-581c-4def-9bc2-d7b6e0fb55bc",
+              "comment": "Nesbitt is expected to miss the next 4-6 weeks with a sprained ankle, according to Chris Lott of MLive.com.",
+              "desc": "Ankle",
+              "status": "Day-to-Day",
+              "start_date": "2016-03-17",
+              "update_date": "2016-03-17"
+            }
+          ]
+        },
+        {
+          "id": "304020b8-8e69-415e-83c4-bb42e05ab066",
+          "status": "A",
+          "position": "P",
+          "primary_position": "RP",
+          "first_name": "Jeffrey",
+          "last_name": "Ferrell",
+          "preferred_name": "Jeff",
+          "jersey_number": "26",
+          "injuries": [
+            {
+              "id": "98598a9a-924d-471b-b8ab-5746010b6920",
+              "comment": "The Tigers announced through their official MLB website that Ferrell has been shut down with discomfort in his right shoulder.",
+              "desc": "Shoulder",
+              "status": "Day-to-Day",
+              "start_date": "2016-03-09",
+              "update_date": "2016-03-10"
+            }
+          ]
+        },
+        {
+          "id": "a5ae5017-4659-4743-bc21-2ce0ed6bc7cd",
+          "status": "A",
+          "position": "OF",
+          "primary_position": "CF",
+          "first_name": "Cameron",
+          "last_name": "Maybin",
+          "preferred_name": "Cameron",
+          "jersey_number": "4",
+          "injuries": [
+            {
+              "id": "b7b476e0-1a29-44c5-b584-1254c2f89d27",
+              "comment": "Maybin is expected to miss the next four-to-six weeks with a hairline fracture in his left wrist, according to Jason Beck of MLB.com.",
+              "desc": "Wrist",
+              "status": "Day-to-Day",
+              "start_date": "2016-03-03",
+              "update_date": "2016-03-03"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Brewers",
+      "abbr": "MIL",
+      "market": "Milwaukee",
+      "id": "dcfd5266-00ce-442c-bc09-264cd20cf455",
+      "players": [
+        {
+          "id": "86a049e0-9236-4e5b-b577-b32b8a82e4fd",
+          "status": "A",
+          "position": "P",
+          "primary_position": "RP",
+          "first_name": "Yhonathan",
+          "last_name": "Barrios",
+          "preferred_name": "Yhonathan",
+          "jersey_number": "50",
+          "injuries": [
+            {
+              "id": "3407ee0f-2400-41af-8c81-a971e3b3f31d",
+              "comment": "Barrios is getting a second opinion before he decides what to do with his ailing right shoulder, according to Adam McCalvy of MLB.com.",
+              "desc": "Shoulder",
+              "status": "Day-to-Day",
+              "start_date": "2016-03-18",
+              "update_date": "2016-03-18"
+            }
+          ]
+        },
+        {
+          "id": "a948037a-2d30-41a6-bcbf-5aeb72bb0347",
+          "status": "A",
+          "position": "OF",
+          "primary_position": "LF",
+          "first_name": "Ryan",
+          "last_name": "Braun",
+          "preferred_name": "Ryan",
+          "jersey_number": "8",
+          "injuries": [
+            {
+              "id": "9bd30579-806a-4df2-a9a5-641787c668d1",
+              "comment": "Braun does not expect to be healthy by the start of spring training, but does expect to be ready to play by Opening Day, according to FoxSports.com's Robert Pace.\r\n",
+              "desc": "Back",
+              "status": "Day-to-Day",
+              "start_date": "2015-10-01",
+              "update_date": "2016-02-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dodgers",
+      "abbr": "LAD",
+      "market": "Los Angeles",
+      "id": "ef64da7f-cfaf-4300-87b0-9313386b977c",
+      "players": [
+        {
+          "id": "79551d40-c562-4e2b-8692-9fa7730572b7",
+          "status": "A",
+          "position": "P",
+          "primary_position": "SP",
+          "first_name": "Brett",
+          "last_name": "Anderson",
+          "preferred_name": "Brett",
+          "jersey_number": "35",
+          "injuries": [
+            {
+              "id": "4a90f38c-eb52-4ddc-8b04-f1718bb981d9",
+              "comment": "Anderson is expected to undergo back surgery and miss the next three to five months of action, according to Andy McCullough of the Los Angeles Times.",
+              "desc": "Back",
+              "status": "Day-to-Day",
+              "start_date": "2016-03-03",
+              "update_date": "2016-03-03"
+            }
+          ]
+        },
+        {
+          "id": "ca159e78-05a9-410a-be7b-3ebad5496a88",
+          "status": "A",
+          "position": "IF",
+          "primary_position": "SS",
+          "first_name": "Corey",
+          "last_name": "Seager",
+          "preferred_name": "Corey",
+          "jersey_number": "5",
+          "injuries": [
+            {
+              "id": "5d66abbf-fc80-49c0-b4bb-75766247d257",
+              "comment": "Seager will be out for one-to-two weeks, according to Bill Shaikin of the Los Angeles Times.",
+              "desc": "Left Knee",
+              "status": "Day-to-Day",
+              "start_date": "2016-03-13",
+              "update_date": "2016-03-13"
+            }
+          ]
+        },
+        {
+          "id": "c8488db1-1ad6-4e69-9072-56422bc3f1b1",
+          "status": "D60",
+          "position": "P",
+          "primary_position": "SP",
+          "first_name": "Brandon",
+          "last_name": "McCarthy",
+          "preferred_name": "Brandon",
+          "jersey_number": "38",
+          "injuries": [
+            {
+              "id": "8d5be481-3a45-4d00-8dd7-69d33daff2a3",
+              "comment": "The Dodgers placed RHP Brandon McCarthy on the 60-day disabled list. McCarthy is working his way back from Tommy John surgery and is not expected back until this summer.",
+              "desc": "Elbow",
+              "status": "D60",
+              "start_date": "2015-04-27",
+              "update_date": "2016-02-19"
+            }
+          ]
+        },
+        {
+          "id": "a190b415-b572-4c98-b974-4f1b574f9d69",
+          "status": "D60",
+          "position": "P",
+          "primary_position": "RP",
+          "first_name": "Francelis",
+          "last_name": "Montas",
+          "preferred_name": "Frankie",
+          "jersey_number": "44",
+          "injuries": [
+            {
+              "id": "ba75c745-11ee-4c94-87e0-8249d7966475",
+              "comment": "The Los Angeles Dodgers placed Frankie Montas on the 60-day disabled list.",
+              "desc": "Rib",
+              "status": "D60",
+              "start_date": "2016-02-21",
+              "update_date": "2016-02-21"
+            }
+          ]
+        },
+        {
+          "id": "5b2ef4c5-f800-41e5-8416-4520d38c5c7c",
+          "status": "A",
+          "position": "P",
+          "primary_position": "RP",
+          "first_name": "Joshua",
+          "last_name": "Ravin",
+          "preferred_name": "Josh",
+          "jersey_number": "71",
+          "injuries": [
+            {
+              "id": "ce762fa8-7a45-4980-9943-bb7f5e5c2d4c",
+              "comment": "Ravin will be sidelined for eight-to-12 weeks after breaking his arm in a car accident on Monday (Feb. 29), according to Andy McCullough of the Los Angeles Times.",
+              "desc": "Arm",
+              "status": "Day-to-Day",
+              "start_date": "2016-02-29",
+              "update_date": "2016-03-02"
+            }
+          ]
+        },
+        {
+          "id": "01d71849-6f8e-4394-ae98-155bd61c68e8",
+          "status": "A",
+          "position": "P",
+          "primary_position": "SP",
+          "first_name": "Hyun-Jin",
+          "last_name": "Ryu",
+          "preferred_name": "Hyun-Jin",
+          "jersey_number": "99",
+          "injuries": [
+            {
+              "id": "f48d19c5-f800-4765-a0d2-568b18920428",
+              "comment": "\r\nHead coach Dave Roberts does not expect Ryu to pitch in a game this spring, according to Ken Gurnick of MLB.com.",
+              "desc": "Shoulder",
+              "status": "Day-to-Day",
+              "start_date": "2015-03-20",
+              "update_date": "2016-03-16"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nationals",
+      "abbr": "WSH",
+      "market": "Washington",
+      "id": "d89bed32-3aee-4407-99e3-4103641b999a",
+      "players": [
+        {
+          "id": "6221f942-d578-4b6c-8f4e-e3b343e4a9a7",
+          "status": "A",
+          "position": "P",
+          "primary_position": "RP",
+          "first_name": "Aaron",
+          "last_name": "Barrett",
+          "preferred_name": "Aaron",
+          "jersey_number": "30",
+          "injuries": [
+            {
+              "id": "4ed1fd11-fde6-4199-8bfd-06aa32986da6",
+              "comment": "Barrett is expected to throw from 90 feet on Monday (Feb. 22). He's hoping to return by September but could potentially miss the entire season, according to MASN Sports.",
+              "desc": "Elbow",
+              "status": "Day-to-Day",
+              "start_date": "2015-09-15",
+              "update_date": "2016-02-22"
+            }
+          ]
+        },
+        {
+          "id": "894fea8a-5b90-487c-9a95-8ff25be48b30",
+          "status": "NRI",
+          "position": "P",
+          "primary_position": "RP",
+          "first_name": "Matthew",
+          "last_name": "Belisle",
+          "preferred_name": "Matt",
+          "jersey_number": "18",
+          "injuries": [
+            {
+              "id": "a11dd7e8-0428-41bf-b8e3-c475911d4ca8",
+              "comment": "Belisle injured his calf during a workout Saturday (Feb. 20), according to a report from Nationals.com.",
+              "desc": "Calf",
+              "status": "Day-to-Day",
+              "start_date": "2016-02-20",
+              "update_date": "2016-02-21"
+            }
+          ]
+        },
+        {
+          "id": "53083fd6-8f9f-40d5-a622-49a628f94a51",
+          "status": "MIN",
+          "position": "P",
+          "primary_position": "SP",
+          "first_name": "Bronson",
+          "last_name": "Arroyo",
+          "preferred_name": "Bronson",
+          "jersey_number": "",
+          "injuries": [
+            {
+              "id": "fdd2e7a8-d1e3-47b7-b0c1-eda7564ec07e",
+              "comment": "Arroyo is dealing with a torn rotator cuff, according to Mark Zuckerman of masnsports.com.",
+              "desc": "Rotator Cuff",
+              "status": "Day-to-Day",
+              "start_date": "2016-03-17",
+              "update_date": "2016-03-17"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Athletics",
+      "abbr": "OAK",
+      "market": "Oakland",
+      "id": "27a59d3b-ff7c-48ea-b016-4798f560f5e1",
+      "players": [
+        {
+          "id": "c7a870c6-ad3e-4bda-abe8-cc9e17aa901b",
+          "status": "A",
+          "position": "OF",
+          "primary_position": "LF",
+          "first_name": "Covelli",
+          "last_name": "Crisp",
+          "preferred_name": "Coco",
+          "jersey_number": "4",
+          "injuries": [
+            {
+              "id": "522bb366-fc0e-4fdd-8a20-4e5e27f2c59a",
+              "comment": "The San Francisco Chronicle reports that Crisp has begun hitting but his status for the 2016 season remains unclear.",
+              "desc": "Hip/Ankle",
+              "status": "Day-to-Day",
+              "start_date": "2016-01-25",
+              "update_date": "2016-01-25"
+            }
+          ]
+        },
+        {
+          "id": "a193c72e-e252-49c4-8ae5-2836039afda7",
+          "status": "A",
+          "position": "P",
+          "primary_position": "SP",
+          "first_name": "Jesse",
+          "last_name": "Hahn",
+          "preferred_name": "Jesse",
+          "jersey_number": "32",
+          "injuries": [
+            {
+              "id": "b233f959-50c3-47fd-8a9e-e9d3ff1b381d",
+              "comment": "Hahn has felt no pain this offseason and is expected to enter spring training ready to go, according to John Hickey of the Bay Area News Group.",
+              "desc": "Elbow",
+              "status": "Day-to-Day",
+              "start_date": "2015-06-30",
+              "update_date": "2016-01-24"
+            }
+          ]
+        },
+        {
+          "id": "0dbeec6c-890d-4d8f-9044-575c8d5c3e5e",
+          "status": "A",
+          "position": "P",
+          "primary_position": "SP",
+          "first_name": "Henderson",
+          "last_name": "Alvarez",
+          "preferred_name": "Henderson",
+          "jersey_number": "37",
+          "injuries": [
+            {
+              "id": "f7143e39-6a5a-4833-b133-f5c94a04945e",
+              "comment": "Alvarez is making progress as he continues rehabbing from shoulder surgery, according to Susan Slusser of the San Francisco Chronicle. He's not expected to return to action until at least May.",
+              "desc": "Shoulder",
+              "status": "Day-to-Day",
+              "start_date": "2015-05-26",
+              "update_date": "2016-02-20"
+            }
+          ]
+        },
+        {
+          "id": "15e86ea6-6659-42ce-a0d9-9f923b8e9d85",
+          "status": "D60",
+          "position": "P",
+          "primary_position": "SP",
+          "first_name": "Jarrod",
+          "last_name": "Parker",
+          "preferred_name": "Jarrod",
+          "jersey_number": "11",
+          "injuries": [
+            {
+              "id": "fa0c719f-2099-4766-af4f-af42e94227ee",
+              "comment": "The Athletics have placed RHP Jarrod Parker on the 60-day disabled list.",
+              "desc": "Elbow",
+              "status": "D60",
+              "start_date": "2014-03-14",
+              "update_date": "2016-03-13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mariners",
+      "abbr": "SEA",
+      "market": "Seattle",
+      "id": "43a39081-52b4-4f93-ad29-da7f329ea960",
+      "players": [
+        {
+          "id": "5e7dcbbc-7b5d-4fcc-881f-3c8ee6febd2f",
+          "status": "D60",
+          "position": "C",
+          "primary_position": "C",
+          "first_name": "Jesus",
+          "last_name": "Sucre",
+          "preferred_name": "Jesus",
+          "jersey_number": "2",
+          "injuries": [
+            {
+              "id": "52a24e7f-fbe8-445b-ae2b-79e502784ad9",
+              "comment": "The Mariners placed Sucre on the 60-day disabled list.",
+              "desc": "Leg",
+              "status": "D60",
+              "start_date": "2016-01-17",
+              "update_date": "2016-03-01"
+            }
+          ]
+        },
+        {
+          "id": "5a56b7e6-53e9-4749-9a9a-fee9e5b49b44",
+          "status": "D60",
+          "position": "P",
+          "primary_position": "RP",
+          "first_name": "Ryan",
+          "last_name": "Cook",
+          "preferred_name": "Ryan",
+          "jersey_number": "29",
+          "injuries": [
+            {
+              "id": "a1a4fb70-65f2-4549-97ec-aae3988eb62f",
+              "comment": "Cook was placed on the 60-day disabled list as he recovers from a strained lat muscle.",
+              "desc": "Lat Strain",
+              "status": "D60",
+              "start_date": "2016-03-12",
+              "update_date": "2016-03-12"
+            },
+            {
+              "id": "c0573706-30c4-498d-a5c3-82b7f6203d07",
+              "comment": "Cook has a lat strain, according to MLB.com reporter Greg Johns. If the injury persists, he could open the season on the disabled list.",
+              "desc": "Lat Strain",
+              "status": "Day-to-Day",
+              "start_date": "2016-03-10",
+              "update_date": "2016-03-10"
+            }
+          ]
+        },
+        {
+          "id": "6f61629a-8c64-4469-b67a-48d470b7c990",
+          "status": "A",
+          "position": "P",
+          "primary_position": "RP",
+          "first_name": "Charles",
+          "last_name": "Furbush",
+          "preferred_name": "Charlie",
+          "jersey_number": "41",
+          "injuries": [
+            {
+              "id": "ee7ea3ec-ad2d-4028-b99a-59192d3fb21f",
+              "comment": "Furbush is making progress as he recovers from a torn rotator cuff, according to Bob Dutton with the Tacoma News Tribune. He's expected to be ready for Opening Day.",
+              "desc": "Shoulder",
+              "status": "Day-to-Day",
+              "start_date": "2015-07-08",
+              "update_date": "2016-01-28"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Royals",
+      "abbr": "KC",
+      "market": "Kansas City",
+      "id": "833a51a9-0d84-410f-bd77-da08c3e5e26e",
+      "players": [
+        {
+          "id": "fc1463b4-7507-4d8b-87c4-0df02b99675e",
+          "status": "A",
+          "position": "IF",
+          "primary_position": "2B",
+          "first_name": "Omar",
+          "last_name": "Infante",
+          "preferred_name": "Omar",
+          "jersey_number": "14",
+          "injuries": [
+            {
+              "id": "5877be7d-b66f-4de7-896f-9ffd0fe79a4f",
+              "comment": "Infante will not play in the field for the first seven-to-ten spring training games. He is still expected to be ready for opening day, according to Jeffrey Flanagan of MLB.com.",
+              "desc": "Elbow",
+              "status": "Day-to-Day",
+              "start_date": "2015-11-01",
+              "update_date": "2016-02-21"
+            }
+          ]
+        },
+        {
+          "id": "f7188ee3-cf88-4a71-9b62-601ff63d9fe7",
+          "status": "D60",
+          "position": "P",
+          "primary_position": "SP",
+          "first_name": "Michael",
+          "last_name": "Minor",
+          "preferred_name": "Mike",
+          "jersey_number": "",
+          "injuries": [
+            {
+              "id": "b461491a-b2f9-4da4-a9c3-31b6a6c1df97",
+              "comment": "The Kansas City Royals have placed LHP Mike Minor on the 60-day disabled list.",
+              "desc": "Left Labrum",
+              "status": "D60",
+              "start_date": "2016-03-15",
+              "update_date": "2016-03-15"
+            }
+          ]
+        },
+        {
+          "id": "d36e1643-ef4d-48d6-b898-d8654bc7f9e1",
+          "status": "A",
+          "position": "OF",
+          "primary_position": "CF",
+          "first_name": "Jarrod",
+          "last_name": "Dyson",
+          "preferred_name": "Jarrod",
+          "jersey_number": "1",
+          "injuries": [
+            {
+              "id": "d38c7b3f-dcce-4b67-a7f0-1a60e3b60678",
+              "comment": "Dyson said he only expects to miss the first two weeks of the regular season, according to Jeffrey Flanagan of MLB.com.",
+              "desc": "Oblique",
+              "status": "Day-to-Day",
+              "start_date": "2016-03-02",
+              "update_date": "2016-03-17"
+            }
+          ]
+        },
+        {
+          "id": "2d60f0d5-dacb-40dd-b9a2-adb7716b40e2",
+          "status": "D60",
+          "position": "P",
+          "primary_position": "SP",
+          "first_name": "Jason",
+          "last_name": "Vargas",
+          "preferred_name": "Jason",
+          "jersey_number": "51",
+          "injuries": [
+            {
+              "id": "f44dc010-ea9b-42e1-ab2b-d6afde7db403",
+              "comment": "The team said Vargas may return late during the 2016 season, according to Jeffrey Flanagan of MLB.com. Vargas is recovering from Tommy John surgery during the 2015 season.",
+              "desc": "Elbow",
+              "status": "D60",
+              "start_date": "2015-07-22",
+              "update_date": "2016-02-19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cubs",
+      "abbr": "CHC",
+      "market": "Chicago",
+      "id": "55714da8-fcaf-4574-8443-59bfb511a524",
+      "players": [
+        {
+          "id": "1a0616be-c843-41ae-95ef-4f98d6b166e7",
+          "status": "MIN",
+          "position": "P",
+          "primary_position": "RP",
+          "first_name": "John",
+          "last_name": "Leathersich",
+          "preferred_name": "Jack",
+          "jersey_number": "",
+          "injuries": [
+            {
+              "id": "5d5b2c89-799c-4e84-918b-c68b0bd165f5",
+              "comment": "Leathersich had Tommy John surgery July 30, 2015. CBSSports.com reports that if everything goes to plan, the hope is that he will be able to return in Aug. of the 2016 season.",
+              "desc": "Elbow",
+              "status": "Day-to-Day",
+              "start_date": "2015-07-30",
+              "update_date": "2015-12-23"
+            }
+          ]
+        },
+        {
+          "id": "47ba369f-0169-4a98-b406-dd154350a2d9",
+          "status": "D60",
+          "position": "P",
+          "primary_position": "RP",
+          "first_name": "Zachary",
+          "last_name": "Rosscup",
+          "preferred_name": "Zac",
+          "jersey_number": "59",
+          "injuries": [
+            {
+              "id": "e36f32a7-cf90-4714-b5e7-da67ce6a022b",
+              "comment": "The Chicago Cubs placed Zac Rosscup on the 60-day disabled list.",
+              "desc": "Left shoulder inflammation.",
+              "status": "D60",
+              "start_date": "2016-02-25",
+              "update_date": "2016-02-25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Orioles",
+      "abbr": "BAL",
+      "market": "Baltimore",
+      "id": "75729d34-bca7-4a0f-b3df-6f26c6ad3719",
+      "players": [
+        {
+          "id": "99eabefc-9777-428a-a59f-e8282b8d0066",
+          "status": "A",
+          "position": "DH",
+          "primary_position": "DH",
+          "first_name": "Jimmy",
+          "last_name": "Paredes",
+          "preferred_name": "Jimmy",
+          "jersey_number": "38",
+          "injuries": [
+            {
+              "id": "66ed72f7-044d-4c4e-b6eb-0871d3cd9b07",
+              "comment": "Paredes has a sprained left wrist and is wearing a cast to protect it, according to Roch Kubatko of MASNsports.com.\r\n",
+              "desc": "Wrist",
+              "status": "Day-to-Day",
+              "start_date": "2016-03-04",
+              "update_date": "2016-03-04"
+            }
+          ]
+        },
+        {
+          "id": "cb4d530e-a63e-4328-b3a5-7307e168086e",
+          "status": "A",
+          "position": "P",
+          "primary_position": "SP",
+          "first_name": "Christopher",
+          "last_name": "Tillman",
+          "preferred_name": "Chris",
+          "jersey_number": "30",
+          "injuries": [
+            {
+              "id": "86008603-d6f7-4841-bb36-ccdd7ad6cf3d",
+              "comment": "Tillman is expected to make his Grapefruit League debut Thursday (Mar. 10), according to Roch Kubatko of MASN.",
+              "desc": "Core",
+              "status": "Day-to-Day",
+              "start_date": "2016-02-28",
+              "update_date": "2016-02-28"
+            }
+          ]
+        },
+        {
+          "id": "4ad7af6c-4949-4b11-a311-0997c9e28491",
+          "status": "A",
+          "position": "P",
+          "primary_position": "SP",
+          "first_name": "Dylan",
+          "last_name": "Bundy",
+          "preferred_name": "Dylan",
+          "jersey_number": "37",
+          "injuries": [
+            {
+              "id": "929e65e3-497a-4227-9ba5-4bfcada56b30",
+              "comment": "Bundy was able to start throwing from the mound for the first time since leaving the Arizona Fall League, according to a report by MASN.",
+              "desc": "Forearm",
+              "status": "Day-to-Day",
+              "start_date": "2015-11-15",
+              "update_date": "2016-01-25"
+            }
+          ]
+        },
+        {
+          "id": "76d4b076-71a6-431f-ab60-f0f4ca062069",
+          "status": "A",
+          "position": "P",
+          "primary_position": "RP",
+          "first_name": "Brian",
+          "last_name": "Matusz",
+          "preferred_name": "Brian",
+          "jersey_number": "17",
+          "injuries": [
+            {
+              "id": "e196e494-3b01-4103-9157-a5c1c06d6b38",
+              "comment": "Matusz has a strained muscle on the right side, according to Rich Dubroff of csnmidatlantic.com. His status for Opening Day has yet to be determined.",
+              "desc": "Strained Muscle",
+              "status": "Day-to-Day",
+              "start_date": "2016-03-04",
+              "update_date": "2016-03-04"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cardinals",
+      "abbr": "STL",
+      "market": "St. Louis",
+      "id": "44671792-dc02-4fdd-a5ad-f5f17edaa9d7",
+      "players": [
+        {
+          "id": "e38bd516-ca6b-4ec3-b06d-6735402fcc01",
+          "status": "A",
+          "position": "P",
+          "primary_position": "RP",
+          "first_name": "Jordan",
+          "last_name": "Walden",
+          "preferred_name": "Jordan",
+          "jersey_number": "53",
+          "injuries": [
+            {
+              "id": "6ef14c6d-86fa-4019-b4a8-c7faf75bc187",
+              "comment": "Walden is expected to be ready for spring training, according to Jenifer Langosch of MLB.com.",
+              "desc": "Bicep",
+              "status": "Day-to-Day",
+              "start_date": "2015-05-03",
+              "update_date": "2016-01-28"
+            }
+          ]
+        },
+        {
+          "id": "035db417-6f64-4ecd-86a3-94d796bf5ff0",
+          "status": "A",
+          "position": "IF",
+          "primary_position": "SS",
+          "first_name": "Jhonny",
+          "last_name": "Peralta",
+          "preferred_name": "Jhonny",
+          "jersey_number": "27",
+          "injuries": [
+            {
+              "id": "b5b2126b-d567-407d-8021-0d48f384bb01",
+              "comment": "Peralta had surgery to repair a torn ligament in his left thumb, according to Derrick Goold of the St. Louis Post-Dispatch.",
+              "desc": "Left Thumb",
+              "status": "Day-to-Day",
+              "start_date": "2016-03-07",
+              "update_date": "2016-03-10"
+            }
+          ]
+        },
+        {
+          "id": "532d4a28-6fd6-4f5e-9054-69203c78de4b",
+          "status": "A",
+          "position": "P",
+          "primary_position": "SP",
+          "first_name": "Michael",
+          "last_name": "Lynn",
+          "preferred_name": "Lance",
+          "jersey_number": "31",
+          "injuries": [
+            {
+              "id": "c2ea24ec-b306-48d3-8c3a-a909772d5b67",
+              "comment": "Lynn underwent Tommy John surgery on Nov. 10 and is expected to miss the 2016 season.",
+              "desc": "Elbow",
+              "status": "Day-to-Day",
+              "start_date": "2015-11-10",
+              "update_date": "2015-11-10"
+            }
+          ]
+        },
+        {
+          "id": "6e790e8d-85cb-4c75-8f1f-8c12f410f3ab",
+          "status": "A",
+          "position": "C",
+          "primary_position": "C",
+          "first_name": "Yadier",
+          "last_name": "Molina",
+          "preferred_name": "Yadier",
+          "jersey_number": "4",
+          "injuries": [
+            {
+              "id": "f74c40aa-a5bd-43e6-888a-748a891cb816",
+              "comment": "Molina was able to remove his cast and the Cardinals should know within the next two-to-three weeks whether he will be ready for opening day, according to a report from KMOX Sports on Twitter.",
+              "desc": "Thumb",
+              "status": "Day-to-Day",
+              "start_date": "2015-10-15",
+              "update_date": "2016-02-14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Giants",
+      "abbr": "SF",
+      "market": "San Francisco",
+      "id": "a7723160-10b7-4277-a309-d8dd95a8ae65",
+      "players": [
+        {
+          "id": "a9dfa1f9-c5d3-449a-8c40-52f646efb498",
+          "status": "A",
+          "position": "P",
+          "primary_position": "SP",
+          "first_name": "Matthew",
+          "last_name": "Cain",
+          "preferred_name": "Matt",
+          "jersey_number": "18",
+          "injuries": [
+            {
+              "id": "7e8fc1b9-3966-4a4d-8edc-6eae3d4c83bd",
+              "comment": "It's looking pretty unlikely that Cain will be ready for Opening Day, according to Alex Pavlovic of CSN Bay Area.",
+              "desc": "Arm",
+              "status": "Day-to-Day",
+              "start_date": "2016-03-07",
+              "update_date": "2016-03-13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pirates",
+      "abbr": "PIT",
+      "market": "Pittsburgh",
+      "id": "481dfe7e-5dab-46ab-a49f-9dcc2b6e2cfd",
+      "players": [
+        {
+          "id": "eebc991a-23ea-4f1c-ba3b-37ff21ee1603",
+          "status": "A",
+          "position": "P",
+          "primary_position": "SP",
+          "first_name": "Gerrit",
+          "last_name": "Cole",
+          "preferred_name": "Gerrit",
+          "jersey_number": "45",
+          "injuries": [
+            {
+              "id": "7ebea21e-5f85-42f7-be80-d627e01e1352",
+              "comment": "Cole was able to throw a bullpen session with no pain on Monday (Feb. 22) and should be ready for opening day, according to Bill Brink of the Pittsburgh Post-Gazette.",
+              "desc": "Ribs",
+              "status": "Day-to-Day",
+              "start_date": "2016-01-15",
+              "update_date": "2016-02-22"
+            }
+          ]
+        },
+        {
+          "id": "55955b56-8197-4c82-9653-e0348917739d",
+          "status": "A",
+          "position": "IF",
+          "primary_position": "SS",
+          "first_name": "Jung-Ho",
+          "last_name": "Kang",
+          "preferred_name": "Jung-Ho",
+          "jersey_number": "27",
+          "injuries": [
+            {
+              "id": "940fda51-de41-4a79-a3ef-f3b82df74500",
+              "comment": "Kang is expected to begin the season on the disabled list, per Rob Biertempfel of the Pittsburgh Tribune. He is recovering from offseason knee surgery.",
+              "desc": "Knee",
+              "status": "Day-to-Day",
+              "start_date": "2015-09-21",
+              "update_date": "2016-03-11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Angels",
+      "abbr": "LAA",
+      "market": "Los Angeles",
+      "id": "4f735188-37c8-473d-ae32-1f7e34ccf892",
+      "players": [
+        {
+          "id": "fb061c77-5253-4181-ad7b-c68ef18aa511",
+          "status": "A",
+          "position": "IF",
+          "primary_position": "DH",
+          "first_name": "Jose",
+          "last_name": "Pujols",
+          "preferred_name": "Albert",
+          "jersey_number": "5",
+          "injuries": [
+            {
+              "id": "818ae616-925b-446b-9376-c98819c842ee",
+              "comment": "The Angels are preparing to start the regular season without Pujols, according to Mike Cranston of the Associated Press. Pujols had surgery on his foot in November.",
+              "desc": "Foot",
+              "status": "Day-to-Day",
+              "start_date": "2015-11-09",
+              "update_date": "2016-02-19"
+            }
+          ]
+        },
+        {
+          "id": "14515de3-cbae-45ad-88b7-6c88e19ff574",
+          "status": "A",
+          "position": "P",
+          "primary_position": "SP",
+          "first_name": "Christopher",
+          "last_name": "Wilson",
+          "preferred_name": "C.J.",
+          "jersey_number": "33",
+          "injuries": [
+            {
+              "id": "a11b520a-f47d-4f37-9be1-6ca3bae770fb",
+              "comment": "Wilson stated Saturday (Mar. 5) that it's possible that he begins the regular season on the disabled list, according to the Orange County Register.",
+              "desc": "Elbow",
+              "status": "Day-to-Day",
+              "start_date": "2015-08-13",
+              "update_date": "2016-03-04"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Diamondbacks",
+      "abbr": "ARI",
+      "market": "Arizona",
+      "id": "25507be1-6a68-4267-bd82-e097d94b359b",
+      "players": [
+        {
+          "id": "3f8532e7-dc3a-49f9-815d-c64c4b40d8f8",
+          "status": "A",
+          "position": "P",
+          "primary_position": "RP",
+          "first_name": "Evan",
+          "last_name": "Marshall",
+          "preferred_name": "Evan",
+          "jersey_number": "50",
+          "injuries": [
+            {
+              "id": "82a91f8b-322c-4fa9-982a-30b56abd6c12",
+              "comment": "Marshall was cleared Friday (Feb. 19) for full activities by Major League Baseball.",
+              "desc": "Head",
+              "status": "Day-to-Day",
+              "start_date": "2015-08-15",
+              "update_date": "2016-02-21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Indians",
+      "abbr": "CLE",
+      "market": "Cleveland",
+      "id": "80715d0d-0d2a-450f-a970-1b9a3b18c7e7",
+      "players": [
+        {
+          "id": "01ba3f18-8cbf-4b68-8348-547e571ed939",
+          "status": "MIN",
+          "position": "P",
+          "primary_position": "RP",
+          "first_name": "Craig",
+          "last_name": "Stammen",
+          "preferred_name": "Craig",
+          "jersey_number": "",
+          "injuries": [
+            {
+              "id": "8772b96f-6f41-405e-996e-bb4a877f9ca9",
+              "comment": "Indians manager Terry Francona said Stammen probably will not be ready for the start of the regular season as he recovers from surgery last season, according to Paul Hoynes of Cleveland.com.",
+              "desc": "Elbow",
+              "status": "Day-to-Day",
+              "start_date": "2015-04-20",
+              "update_date": "2016-02-19"
+            }
+          ]
+        },
+        {
+          "id": "1cd85a96-9957-49f4-8eee-500f8c3564e4",
+          "status": "A",
+          "position": "P",
+          "primary_position": "RP",
+          "first_name": "Raymond",
+          "last_name": "Hunter",
+          "preferred_name": "Tommy",
+          "jersey_number": "48",
+          "injuries": [
+            {
+              "id": "9a2d28c4-20fb-4f2e-8871-d1214d5fac17",
+              "comment": "Head coach Terry Francona said Hunter could be out of action until the middle of May, according to Jordan Bastian of MLB.com.",
+              "desc": "Core",
+              "status": "Day-to-Day",
+              "start_date": "2016-02-11",
+              "update_date": "2016-02-20"
+            }
+          ]
+        },
+        {
+          "id": "0bcd0f33-ce3c-4916-bfcc-949ec78fe80c",
+          "status": "MIN",
+          "position": "IF",
+          "primary_position": "2B",
+          "first_name": "Zachary",
+          "last_name": "Walters",
+          "preferred_name": "Zach",
+          "jersey_number": "6",
+          "injuries": [
+            {
+              "id": "b4336111-67a9-4348-833c-1704779657b6",
+              "comment": "Walters had surgery to repair a torn labrum in his shoulder on Oct. 2, 2015. He's expected to resume baseball activities sometime in March or April, according to Zack Meisel of Cleveland.com.",
+              "desc": "Shoulder",
+              "status": "Day-to-Day",
+              "start_date": "2015-10-04",
+              "update_date": "2015-10-04"
+            }
+          ]
+        },
+        {
+          "id": "e7a7c661-1c6f-42a1-b4fb-edc2da7fb750",
+          "status": "A",
+          "position": "OF",
+          "primary_position": "LF",
+          "first_name": "Michael",
+          "last_name": "Brantley",
+          "preferred_name": "Michael",
+          "jersey_number": "23",
+          "injuries": [
+            {
+              "id": "bc21e778-93ac-4bd9-818e-918bf0a2501e",
+              "comment": "Brantley could possibly return in late April or early May, according to Paul Hoynes of the Cleveland Plain Dealer.",
+              "desc": "Shoulder",
+              "status": "Day-to-Day",
+              "start_date": "2015-11-09",
+              "update_date": "2016-02-14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Phillies",
+      "abbr": "PHI",
+      "market": "Philadelphia",
+      "id": "2142e1ba-3b40-445c-b8bb-f1f8b1054220",
+      "players": [
+        {
+          "id": "fd6c8bc3-2bf9-462d-a996-da64909610d2",
+          "status": "A",
+          "position": "P",
+          "primary_position": "SP",
+          "first_name": "Matthew",
+          "last_name": "Harrison",
+          "preferred_name": "Matt",
+          "jersey_number": "54",
+          "injuries": [
+            {
+              "id": "94aa25cc-4ade-4990-adc2-873eaccaef4e",
+              "comment": "Harrison isn't expected to be healthy by the start of spring training, according to a report on phillies.com.",
+              "desc": "Back",
+              "status": "Day-to-Day",
+              "start_date": "2016-01-23",
+              "update_date": "2016-01-24"
+            }
+          ]
+        },
+        {
+          "id": "a8935d7c-c25e-40f0-b7cc-83a17fb46d20",
+          "status": "MIN",
+          "position": "OF",
+          "primary_position": "CF",
+          "first_name": "Aaron",
+          "last_name": "Altherr",
+          "preferred_name": "Aaron",
+          "jersey_number": "23",
+          "injuries": [
+            {
+              "id": "95975ccc-e614-4d4c-a638-ed1fef488182",
+              "comment": "Altherr will have surgery on his left wrist. Expected to miss 4-6 months.",
+              "desc": "Wrist",
+              "status": "Day-to-Day",
+              "start_date": "2016-03-08",
+              "update_date": "2016-03-08"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Marlins",
+      "abbr": "MIA",
+      "market": "Miami",
+      "id": "03556285-bdbb-4576-a06d-42f71f46ddc5",
+      "players": [
+        {
+          "id": "3cfb4e19-5058-49c0-ba03-678ecc6105b0",
+          "status": "A",
+          "position": "P",
+          "primary_position": "RP",
+          "first_name": "Carter",
+          "last_name": "Capps",
+          "preferred_name": "Carter",
+          "jersey_number": "22",
+          "injuries": [
+            {
+              "id": "d39d2733-ba53-4d37-b38a-ac888e4081e2",
+              "comment": "The Marlins announced that Capps is scheduled to have Tommy John surgery and is expected to miss 10-12 months.",
+              "desc": "Elbow",
+              "status": "Day-to-Day",
+              "start_date": "2016-03-03",
+              "update_date": "2016-03-08"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Padres",
+      "abbr": "SD",
+      "market": "San Diego",
+      "id": "d52d5339-cbdd-43f3-9dfa-a42fd588b9a3",
+      "players": [
+        {
+          "id": "b99833a6-f9bf-48f2-b490-533aecef0a5d",
+          "status": "A",
+          "position": "P",
+          "primary_position": "RP",
+          "first_name": "Fernando",
+          "last_name": "Rodney",
+          "preferred_name": "Fernando",
+          "jersey_number": "56",
+          "injuries": [
+            {
+              "id": "e132cb5e-e661-4a95-a211-4681d71696a7",
+              "comment": "Rodney is being held out of bullpen sessions and could have a delayed debut in spring training; he is still expected to be ready for opening day, according to Corey Brock of MLB.com.",
+              "desc": "Leg",
+              "status": "Day-to-Day",
+              "start_date": "2016-02-04",
+              "update_date": "2016-02-21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Astros",
+      "abbr": "HOU",
+      "market": "Houston",
+      "id": "eb21dadd-8f10-4095-8bf3-dfb3b779f107",
+      "players": [
+        {
+          "id": "99115c76-3d69-47dd-9a8a-f1984811b502",
+          "status": "A",
+          "position": "P",
+          "primary_position": "SP",
+          "first_name": "Scott",
+          "last_name": "Feldman",
+          "preferred_name": "Scott",
+          "jersey_number": "46",
+          "injuries": [
+            {
+              "id": "e363758d-0fcd-4eb2-b1d4-3556e7775ad1",
+              "comment": "Feldman stated Monday (Feb. 1) that he expects to be completely healthy for the start of spring training, according to report on Astros team website.",
+              "desc": "Shoulder",
+              "status": "Day-to-Day",
+              "start_date": "2015-09-15",
+              "update_date": "2016-02-01"
+            }
+          ]
+        },
+        {
+          "id": "e6ea743f-2596-4d10-82f7-dfa95daffdec",
+          "status": "A",
+          "position": "C",
+          "primary_position": "C",
+          "first_name": "Max",
+          "last_name": "Stassi",
+          "preferred_name": "Max",
+          "jersey_number": "12",
+          "injuries": [
+            {
+              "id": "e5707f42-5e3e-4b22-8b1e-f27dd469e872",
+              "comment": "The Houston Astros announced that C Max Stassi will be out for six weeks following surgery Monday (Mar. 14) to repair a fracture in his left wrist.",
+              "desc": "Wrist",
+              "status": "Day-to-Day",
+              "start_date": "2016-03-15",
+              "update_date": "2016-03-15"
+            }
+          ]
+        },
+        {
+          "id": "ab823ce4-655b-4d1d-ba3e-23316d8053dc",
+          "status": "A",
+          "position": "DH",
+          "primary_position": "DH",
+          "first_name": "James",
+          "last_name": "Gattis",
+          "preferred_name": "Evan",
+          "jersey_number": "11",
+          "injuries": [
+            {
+              "id": "f20d275c-4935-4891-9f50-e0320e0acf89",
+              "comment": "Gattis was able to do some light running on Monday (Feb. 22), according to Brian McTaggart of MLB.com.",
+              "desc": "Sports Hernia",
+              "status": "Day-to-Day",
+              "start_date": "2016-02-09",
+              "update_date": "2016-02-22"
+            }
+          ]
+        },
+        {
+          "id": "cf5e31cf-9fe7-4153-bcda-0e21423b9ed0",
+          "status": "A",
+          "position": "P",
+          "primary_position": "SP",
+          "first_name": "Bradley",
+          "last_name": "Peacock",
+          "preferred_name": "Brad",
+          "jersey_number": "41",
+          "injuries": [
+            {
+              "id": "ff29aff4-39e6-40f7-83e9-055ca08bf3c3",
+              "comment": "Peacock dealt with a variety of intercostal injuries for the 2015 season, but his body is healing and he's expected to be ready for spring training, per Evan Drellich of the Houston Chronicle.",
+              "desc": "Intercostal",
+              "status": "Day-to-Day",
+              "start_date": "2015-06-25",
+              "update_date": "2015-12-07"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
