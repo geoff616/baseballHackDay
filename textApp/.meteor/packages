@@ -21,7 +21,6 @@ insecure                # Allow all DB writes from clients (for prototyping)
 accounts-ui
 bootstrap
 accounts-password
-react
 iron:router
 dispatch:twilio
 http
