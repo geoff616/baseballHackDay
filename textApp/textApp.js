@@ -11,6 +11,10 @@ if (Meteor.isClient) {
     this.render('Home');
   });
   // helpers
+  Template.SignupPrompt.rendered = function() {
+    Accounts._loginButtonsSession.set('dropdownVisible', true);
+    $("#login-sign-in-link").hide();
+  };
   Template.Home.helpers({  
 
     noPhoneNumber: function() {

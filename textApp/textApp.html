@@ -3,7 +3,7 @@
 </head>
 
 <body>
-  <div class="login">{{> loginButtons}}</div>
+  <div class="logo"> <img src="logo.png"></div>
   <div id="app"></div>
 </body>
 
@@ -21,31 +21,44 @@
 </template>
 
 <template name="SignupPrompt">
-  <h2 class="jumbotron">Sign up to set started</h2>
+  <div class="content">
+    <div class="well">
+      <h1 class="title">MLB Injury Alert</h1>
+    </div>
+    <div class="well">
+      <h3>Recieve real time text updates of injuries.</h3>
+      <h3>Create an account to get started:</h3>
+    </div>
+    {{> loginButtons}}
+  </div>  
 
 </template>
 
 <template name="EnterPhoneNumber">
-  <div>Enter the phone number to recieve texts</div> 
-  <form class="phone-number">
-    <input type="text" name="text" placeholder="555-555-5555" />
-  </form>
-  <div>Hit enter to submit</div> 
+  <div class="content">
+    <div><h3>Your phone number:</h3></div> 
+    <form class="phone-number">
+      <input type="text" name="text" placeholder="555-555-5555" />
+    </form>
+    <div>Hit enter to submit</div> 
+  </div>
 
 </template>
   
 <template name="SubscribeToStuff">
-  <div>Teams to follow</div>
-  <ul>
-  {{#each teams}}
-    {{> team}}
-  {{/each}}
-  </ul>
-
+  <div class="well">{{> loginButtons}}</div>
+  <div class="content">
+    <div><h3>Teams to follow</h3></div>
+    <ul>
+    {{#each teams}}
+      {{> team}}
+    {{/each}}
+    </ul>
+  </div>
 </template>
 
 <template name="team">
-  <li>{{name}} -  <span class="team-checkbox" >
+  <li><span><b>{{name}}</b><span class="team-checkbox" >
     <input id="{{name}}" type="checkbox" checked="{{subscribeToTeam(name)}}" /> 
-  </span></li> 
+  </span></span></li> 
 </template>

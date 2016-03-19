@@ -1,2 +1,17 @@
 /* CSS declarations go here */
+.logo {
+  padding-top: 250px;
+  padding-right: 50px;
+  float: right;
+  width: 50%;
+}
 
+.content {
+  margin-left: 20px;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  display: inline;
+}
