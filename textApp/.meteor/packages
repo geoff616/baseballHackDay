@@ -24,4 +24,4 @@ accounts-password
 iron:router
 dispatch:twilio
 http
-erasaur:meteor-lodash
+stevezhu:lodash

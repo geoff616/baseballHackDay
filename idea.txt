@@ -8,10 +8,10 @@ User Stories:
 Systems:
 
 UI: 
-  - User registers and subscribes to players/teams
+  - User registers and subscribes to players/teams - done
 
 DB: 
-  - Keep track of who follows who and what reports (texts) have been seen
+  - Keep track of who follows who and what reports (texts) have been seen - done
 
 API Fetcher: 
   - Check every X minutes for changes to the injury report

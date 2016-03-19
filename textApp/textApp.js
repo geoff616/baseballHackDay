@@ -4,11 +4,53 @@ Teams = new Meteor.Collection('teams');
 // Collection to keep track of injuries seen
 Inj = new Meteor.Collection('injuries');
 
+var _ = lodash;
+
+// Configure the Twilio client
+var twilioClient = new Twilio({
+  from: Meteor.settings.TWILIO.FROM,
+  sid: Meteor.settings.TWILIO.SID,
+  token: Meteor.settings.TWILIO.TOKEN
+});
+
+
+function sendMessages(injuries) {
+  console.log(injuries)
+  var injGrouped = _.groupBy(injuries, 'team')
+  var users = Meteor.users.find({}).map(function(u){return u.profile})
+  var messages = [];
+  // loop over all user, and send message for each matching team
+  users.forEach(function(user) {
+    var num = user.phone;
+    var subs = Object.keys(_.pickBy(user.teams, _.identity))
+    subs.forEach(function(team) {
+      if (injGrouped.hasOwnProperty(team)) {
+        injGrouped[team].forEach(function(inj){
+          message = {phone: num}
+          message.text = inj.injury.comment
+          messages.push(message)
+        })
+      }
+    })
+
+    messages.forEach(function(message) {
+
+      // Send a message 
+      twilioClient.sendSMS({
+        to: message.phone,
+        body: message.text
+      });
+
+    })
+  })
+
+
+  return messages.length;
+};
+
 if (Meteor.isClient) {
-  // This code is executed on the client only
   Router.route('/', function () {
     this.render('Home');
-    // React.render(<App />, document.getElementById("app"));
   });
   // helpers
   Template.Home.helpers({  
@@ -31,9 +73,9 @@ if (Meteor.isClient) {
 
   Template.team.helpers({
     subscribeToTeam: function (team) {
-      var prof = Meteor.user().profile
-      if (prof.hasOwnProperty(team)) {
-        return prof[team];
+      var teams = Meteor.user().profile.teams
+      if (teams.hasOwnProperty(team)) {
+        return teams[team];
       } else {
         return false
       }
@@ -45,7 +87,7 @@ if (Meteor.isClient) {
     "change .team-checkbox input": function (event) {
       var team = event.target.id
       var val = event.target.checked
-      var key = "profile." + team
+      var key = "profile.teams." + team
       Meteor.users.update(Meteor.userId(), {"$set" : {[key]: val}});
     }
   });
@@ -84,7 +126,6 @@ if (Meteor.isServer) {
 
   Router.route('/api/injuries', function () {
     var teamData = this.request.body;
-    console.log(teamData)
     var newInjuries = [];
     teamData.teams.forEach(function(team) {
       team.players.forEach(function(player) {
@@ -94,20 +135,23 @@ if (Meteor.isServer) {
           if (typeof q !== 'undefined') {
             // there has been an update
             if (q.update_date !== injury.update_date) {
-              newInjuries.push({team: team, injury: injury})
+              console.log('updated injury')
+              newInjuries.push({team: team.name, injury: injury})
               // overwrite old value
               Inj.update(q._id, {
                 $set: injury
               });
             }
           } else {
-            newInjuries.push({team: team, injury: injury})
+            console.log('new injury')
+            newInjuries.push({team: team.name, injury: injury})
             Inj.insert(injury)
           }
         })
       })
     })
-    this.response.end(newInjuries.toString());
+    numMessages = sendMessages(newInjuries)
+    this.response.end("Just sent " + numMessages + " text messages!");
   }, {where: 'server'});
 
 
