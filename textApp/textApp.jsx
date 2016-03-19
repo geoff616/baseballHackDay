@@ -1,14 +1,8 @@
-// Define a collection to hold user subscriptions
- Subs = new Mongo.Collection("subs");
- // Define collections to hold players and teams
- Players = new Mongo.Collection("players");
- Teams = new Mongo.Collection("teams");
+// Teams
+Teams = new Meteor.Collection('teams');
 
 // Collection to keep track of injuries seen
 Injuries = new Mongo.Collection("injuries");
-
-
-
 
 if (Meteor.isClient) {
   // This code is executed on the client only
@@ -16,7 +10,7 @@ if (Meteor.isClient) {
     this.render('Home');
     // React.render(<App />, document.getElementById("app"));
   });
-  // helper
+  // helpers
   Template.Home.helpers({  
 
     noPhoneNumber: function() {
@@ -26,8 +20,36 @@ if (Meteor.isClient) {
         return true
       }
     }
-    
+
+  }); 
+  Template.SubscribeToStuff.helpers({  
+    teams: function() {
+      return Teams.find({});
+    }
+
   });
+
+  Template.team.helpers({
+    subscribeToTeam: function (team) {
+      var prof = Meteor.user().profile
+      if (prof.hasOwnProperty(team)) {
+        return prof[team];
+      } else {
+        return false
+      }
+      
+    }
+  })
+
+  Template.team.events({
+    "change .team-checkbox input": function (event) {
+      var team = event.target.id
+      var val = event.target.checked
+      var key = "profile." + team
+      Meteor.users.update(Meteor.userId(), {"$set" : {[key]: val}});
+    }
+  });
+
 
   Template.EnterPhoneNumber.events({
     "submit .phone-number": function (event) {
@@ -36,7 +58,6 @@ if (Meteor.isClient) {
  
       // Get value from form element
       var text = event.target.text.value;
-      console.log(text)
  
       Meteor.users.update(Meteor.userId(), {$set: {profile: {phone: text}}});
  
@@ -44,9 +65,22 @@ if (Meteor.isClient) {
       event.target.text.value = "";
     }
   });
+
 }
 
 if (Meteor.isServer) {
+
+  
+  Meteor.startup(function () {
+    var depthCharts = HTTP.get("http://api.sportradar.us/mlb-t5/league/depth_charts.json?api_key=etdrjj3cz8egbv6fhz69gj5c").data;
+    var teams = depthCharts.teams.map(function(team) {
+      // kebabCase is missing :(
+      return {_id: team.name, name: team.name}})
+    .forEach(function(team) {
+      Teams.upsert(team, team);  
+    })
+    
+  });
 
   Router.route('/api/injuries', function () {
     var req = this.request;
@@ -59,53 +93,3 @@ if (Meteor.isServer) {
 
   
 }
-
-Meteor.methods({
-
-  
-  
-  addTask(text) {
-    // Make sure the user is logged in before inserting a task
-    if (! Meteor.userId()) {
-      throw new Meteor.Error("not-authorized");
-    }
-
-    Tasks.insert({
-      text: text,
-      createdAt: new Date(),
-      owner: Meteor.userId(),
-      username: Meteor.user().username
-    });
-  },
-
-  removeTask(taskId) {
-    const task = Tasks.findOne(taskId);
-    if (task.private && task.owner !== Meteor.userId()) {
-      // If the task is private, make sure only the owner can delete it
-      throw new Meteor.Error("not-authorized");
-    }
-
-    Tasks.remove(taskId);
-  },
-
-  setChecked(taskId, setChecked) {
-    const task = Tasks.findOne(taskId);
-    if (task.private && task.owner !== Meteor.userId()) {
-      // If the task is private, make sure only the owner can check it off
-      throw new Meteor.Error("not-authorized");
-    }
-
-    Tasks.update(taskId, { $set: { checked: setChecked} });
-  },
-
-  setPrivate(taskId, setToPrivate) {
-    const task = Tasks.findOne(taskId);
-
-    // Make sure only the task owner can make a task private
-    if (task.owner !== Meteor.userId()) {
-      throw new Meteor.Error("not-authorized");
-    }
-
-    Tasks.update(taskId, { $set: { private: setToPrivate } });
-  }
-});

@@ -35,6 +35,17 @@
 </template>
   
 <template name="SubscribeToStuff">
-  <div>Stuff coming soon </div>
+  <div>Teams to follow</div>
+  <ul>
+  {{#each teams}}
+    {{> team}}
+  {{/each}}
+  </ul>
 
+</template>
+
+<template name="team">
+  <li>{{name}} -  <span class="team-checkbox" >
+    <input id="{{name}}" type="checkbox" checked="{{subscribeToTeam(name)}}" /> 
+  </span></li> 
 </template>
