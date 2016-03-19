@@ -2,7 +2,7 @@
 Teams = new Meteor.Collection('teams');
 
 // Collection to keep track of injuries seen
-Injuries = new Mongo.Collection("injuries");
+Inj = new Meteor.Collection('injuries');
 
 if (Meteor.isClient) {
   // This code is executed on the client only
@@ -83,11 +83,31 @@ if (Meteor.isServer) {
   });
 
   Router.route('/api/injuries', function () {
-    var req = this.request;
-    console.log('in here')
-    console.log(req.body)
-    var res = this.response;
-    res.end('hello from the server\n');
+    var teamData = this.request.body;
+    console.log(teamData)
+    var newInjuries = [];
+    teamData.teams.forEach(function(team) {
+      team.players.forEach(function(player) {
+        player.injuries.forEach(function(injury) {
+          // check if alredy in DB
+          var q = Inj.findOne({id: injury.id});
+          if (typeof q !== 'undefined') {
+            // there has been an update
+            if (q.update_date !== injury.update_date) {
+              newInjuries.push({team: team, injury: injury})
+              // overwrite old value
+              Inj.update(q._id, {
+                $set: injury
+              });
+            }
+          } else {
+            newInjuries.push({team: team, injury: injury})
+            Inj.insert(injury)
+          }
+        })
+      })
+    })
+    this.response.end(newInjuries.toString());
   }, {where: 'server'});
 
 
