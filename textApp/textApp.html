@@ -4,12 +4,37 @@
 
 <body>
   <div class="login">{{> loginButtons}}</div>
-  <h1 class="well">Welcome to Meteor!</h1>
-  
-  {{> hello}}
+  <div id="app"></div>
 </body>
 
-<template name="hello">
-  <button>Click Me</button>
-  <p>You've pressed the button {{counter}} times.</p>
+<template name="Home">
+  {{#if currentUser }} 
+    {{#if noPhoneNumber}} 
+      {{> EnterPhoneNumber}}
+    {{else}}
+      {{> SubscribeToStuff}}
+    {{/if}}
+  {{else}}
+    {{> SignupPrompt}}
+  {{/if}}
+  
+</template>
+
+<template name="SignupPrompt">
+  <h2 class="jumbotron">Sign up to set started</h2>
+
+</template>
+
+<template name="EnterPhoneNumber">
+  <div>Enter the phone number to recieve texts</div> 
+  <form class="phone-number">
+    <input type="text" name="text" placeholder="555-555-5555" />
+  </form>
+  <div>Hit enter to submit</div> 
+
+</template>
+  
+<template name="SubscribeToStuff">
+  <div>Stuff coming soon </div>
+
 </template>
