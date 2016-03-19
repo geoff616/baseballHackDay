@@ -20,4 +20,4 @@ API Fetcher:
       - Depth chart: http://api.sportradar.us/mlb-t5/league/depth_charts.json?api_key=etdrjj3cz8egbv6fhz69gj5c
 
 Text sending:
-  - Runs after each API fetch and sends appropriate text messages
+  - Runs after each API fetch and sends appropriate text messages - done

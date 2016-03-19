@@ -6,48 +6,6 @@ Inj = new Meteor.Collection('injuries');
 
 var _ = lodash;
 
-// Configure the Twilio client
-var twilioClient = new Twilio({
-  from: Meteor.settings.TWILIO.FROM,
-  sid: Meteor.settings.TWILIO.SID,
-  token: Meteor.settings.TWILIO.TOKEN
-});
-
-
-function sendMessages(injuries) {
-  console.log(injuries)
-  var injGrouped = _.groupBy(injuries, 'team')
-  var users = Meteor.users.find({}).map(function(u){return u.profile})
-  var messages = [];
-  // loop over all user, and send message for each matching team
-  users.forEach(function(user) {
-    var num = user.phone;
-    var subs = Object.keys(_.pickBy(user.teams, _.identity))
-    subs.forEach(function(team) {
-      if (injGrouped.hasOwnProperty(team)) {
-        injGrouped[team].forEach(function(inj){
-          message = {phone: num}
-          message.text = inj.injury.comment
-          messages.push(message)
-        })
-      }
-    })
-
-    messages.forEach(function(message) {
-
-      // Send a message 
-      twilioClient.sendSMS({
-        to: message.phone,
-        body: message.text
-      });
-
-    })
-  })
-
-
-  return messages.length;
-};
-
 if (Meteor.isClient) {
   Router.route('/', function () {
     this.render('Home');
@@ -112,6 +70,7 @@ if (Meteor.isClient) {
 
 if (Meteor.isServer) {
 
+
   
   Meteor.startup(function () {
     var depthCharts = HTTP.get("http://api.sportradar.us/mlb-t5/league/depth_charts.json?api_key=etdrjj3cz8egbv6fhz69gj5c").data;
@@ -124,6 +83,47 @@ if (Meteor.isServer) {
     
   });
 
+  function sendMessages(injuries) {
+    // Configure the Twilio client
+    var twilioClient = new Twilio({
+      from: Meteor.settings.TWILIO.FROM,
+      sid: Meteor.settings.TWILIO.SID,
+      token: Meteor.settings.TWILIO.TOKEN
+    });
+    
+    var injGrouped = _.groupBy(injuries, 'team')
+    var users = Meteor.users.find({}).map(function(u){return u.profile})
+    var messages = [];
+    // loop over all user, and send message for each matching team
+    users.forEach(function(user) {
+      var num = user.phone;
+      var subs = Object.keys(_.pickBy(user.teams, _.identity))
+      subs.forEach(function(team) {
+        if (injGrouped.hasOwnProperty(team)) {
+          injGrouped[team].forEach(function(inj){
+            message = {phone: num}
+            message.text = inj.injury.comment
+            messages.push(message)
+          })
+        }
+      })
+
+
+      messages.forEach(function(message) {
+
+        // Send a message 
+        twilioClient.sendSMS({
+          to: message.phone,
+          body: message.text
+        });
+
+      })
+    })
+
+
+    return messages.length;
+  };
+
   Router.route('/api/injuries', function () {
     var teamData = this.request.body;
     var newInjuries = [];
@@ -135,7 +135,7 @@ if (Meteor.isServer) {
           if (typeof q !== 'undefined') {
             // there has been an update
             if (q.update_date !== injury.update_date) {
-              console.log('updated injury')
+
               newInjuries.push({team: team.name, injury: injury})
               // overwrite old value
               Inj.update(q._id, {
@@ -143,7 +143,7 @@ if (Meteor.isServer) {
               });
             }
           } else {
-            console.log('new injury')
+
             newInjuries.push({team: team.name, injury: injury})
             Inj.insert(injury)
           }
